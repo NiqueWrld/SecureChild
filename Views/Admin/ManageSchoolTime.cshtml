@@ -1,0 +1,47 @@
+﻿@model SecureChild.Models.SchoolTime
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color: #000;">Index</h1>
+
+<p>
+    <a asp-action="UpdateSchoolTime" class="btn btn-warning">Update</a>
+</p>
+
+@if (Model != null)
+{
+    <table class="table table-dark table-bordered table-hover">
+        <thead style="background-color: black; color: #fada5e;">
+            <tr>
+                <th>
+                    Last Time Updated
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SchoolStartingTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SchoolEndingTime)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="color: #fff;">
+                <td>
+                    @Html.DisplayFor(model => model.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SchoolStartingTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SchoolEndingTime)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No school times found.</p>
+}

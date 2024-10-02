@@ -1,0 +1,113 @@
+﻿@model SecureChild.Models.Parent
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="color: #000;"></h1> <!-- Title in black -->
+
+<h4 style="color: #f00;">Parent</h4> <!-- Subheading in red -->
+<hr style="border-color: #ffd700;" /> <!-- Horizontal rule in royal yellow -->
+<div class="row" style="background-color: #000; color: #fff; padding: 20px;">
+    <!-- Background for the form -->
+    <div class="col-md-4">
+        <form asp-action="CreateParent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" style="color: #fff;"></label> <!-- Label in white -->
+                <input asp-for="Name" class="form-control" style="color: black;" /> <!-- Input text in black -->
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactInfo" class="control-label" style="color: #fff;"></label> <!-- Label in white -->
+                <input asp-for="ContactInfo" class="form-control" style="color: black;" /> <!-- Input text in black -->
+                <span asp-validation-for="ContactInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" style="color: #fff;">Api Key</label> <!-- Label in white -->
+                <div class="api-key-container">
+                    <input asp-for="apiKey" class="form-control" style="color: black;" /> <!-- Input text in black -->
+                    <!-- Info button with QR code on hover -->
+                    <div class="info-container">
+                        <button type="button" class="info-button">info</button>
+                        <div class="qr-code">
+                            <div class="qr-instruction">Scan QR Code</div>
+                            <img src="~/images/QR.png" alt="QR Code" />
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="apiKey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" onclick="this.disabled=true; this.form.submit(); this.value='Creating...';" value="Create" class="btn" style="background-color: #ffd700; color: #000;" /> <!-- Create button in royal yellow -->
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ManageParents" class="btn" style="background-color: #ffd700; color: #000; text-decoration: none; padding: 10px 15px; border-radius: 5px;">Back to List</a> <!-- Back to List styled as a button -->
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    .api-key-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .info-container {
+        position: relative;
+        display: inline-block;
+        margin-left: 10px; /* Adjust spacing as needed */
+    }
+
+    .info-button {
+        background-color: #007bff; /* Blue color for info button */
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 14px; /* Ensure text is readable */
+    }
+
+    .qr-code {
+        display: none;
+        position: absolute;
+        left: 700%; /* Adjust to ensure it does not overlap with other content */
+        top: -350%;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    .info-container:hover .qr-code {
+        display: block;
+    }
+
+    .qr-code img {
+        width: 300px; /* Adjust size as needed */
+        height: auto;
+    }
+
+    .qr-instruction {
+        position: absolute;
+        top: -40px; /* Position above the QR code */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 14px; /* Ensure text is readable */
+        color: #333;
+    }
+</style>

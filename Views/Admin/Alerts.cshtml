@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Alerts";
+}
+
+<h1>Alerts</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Alert Time</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var alert in Model.Alerts)
+        {
+            <tr>
+                <td>@alert.Time</td>
+                <td>@alert.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,41 @@
+﻿@model SecureChild.Models.Exit
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center mb-4" style="color: #000;">Add Student Entry</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: black; color: #ffd700;">
+                <div class="card-body">
+                    <h4 class="card-title mb-4" style="color: #ffd700;">New Entry</h4>
+                    <form asp-action="Exit">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" style="background-color: #ffd700; color: black;"></div>
+
+                        <div class="form-group mb-3">
+                            <input asp-for="StudentId" type="hidden" class="form-control" value="@ViewBag.Id" />
+                        </div>
+
+                        <div class="d-grid justify-content-center">
+                            <input type="submit" value="Add" class="btn btn-lg" style="background-color: #ffd700; color: black; border-color: #ffd700;" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 justify-content-center">
+        <div class="col-md-6 text-center">
+            <a asp-action="EntriesandExit" class="btn btn-secondary" style="background-color: #ffd700; color: black; border-color: #ffd700;">Back to List</a>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

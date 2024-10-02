@@ -1,0 +1,97 @@
+﻿@model AdminDashboardViewModel
+
+<div class="container">
+    <h1 class="my-4" style="color: #000;">Admin Dashboard</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="background-color: #4CAF50; color: #ffffff;">
+                <!-- Green for Students -->
+                <div class="card-body">
+                    <h5 class="card-title">Students</h5>
+                    <p class="card-text">@Model.StudentsCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="background-color: #2196F3; color: #ffffff;">
+                <!-- Blue for Security Staff -->
+                <div class="card-body">
+                    <h5 class="card-title">Security Staff</h5>
+                    <p class="card-text">@Model.SecurityStaffCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="background-color: #FF5722; color: #ffffff;">
+                <!-- Orange for Alerts -->
+                <div class="card-body">
+                    <h5 class="card-title">Alerts</h5>
+                    <p class="card-text">@Model.Alerts.Count()</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="my-4" style="color: #000;">Recent Entries</h2>
+    <table class="table table-striped" style="background-color: #ffffff; color: #000;">
+        <thead style="background-color: #000; color: #ffd700;">
+            <tr>
+                <th>Time</th>
+                <th>Student Name</th>
+                <th>Parent Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entry in Model.RecentEntries)
+            {
+                <tr>
+                    <td>@entry.Time.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@entry.Student.Name</td>
+                    <td>@entry.Student.Parent.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2 class="my-4" style="color: #000;">Recent Exits</h2>
+    <table class="table table-striped" style="background-color: #ffffff; color: #000;">
+        <thead style="background-color: #000; color: #ffd700;">
+            <tr>
+                <th>Time</th>
+                <th>Student Name</th>
+                <th>Parent Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var exit in Model.RecentExits)
+            {
+                <tr>
+                    <td>@exit.Time.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@exit.Student.Name</td>
+                    <td>@exit.Student.Parent.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2 class="my-4" style="color: #000;">Recent Alerts</h2>
+    <table class="table table-striped" style="background-color: #ffffff; color: #000;">
+        <thead style="background-color: #000; color: #ffd700;">
+            <tr>
+                <th>Time</th>
+                <th>Type</th>
+                <th>Student</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var alert in Model.Alerts)
+            {
+                <tr>
+                    <td>@alert.Time.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@alert.AlertType</td>
+                    <td>@alert.Student.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

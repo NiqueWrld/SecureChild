@@ -1,0 +1,56 @@
+﻿
+.api-key-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.info-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px; /* Adjust spacing as needed */
+}
+
+.info-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px; /* Ensure text is readable */
+}
+
+.qr-code {
+    display: none;
+    position: absolute;
+    left: 700%; /* Adjust to ensure it does not overlap with other content */
+    top: -350%;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1;
+}
+
+.info-container:hover .qr-code {
+    display: block;
+}
+
+.qr-code img {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+}
+
+.qr-instruction {
+    position: absolute;
+    top: -40px; /* Position above the QR code */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px; /* Ensure text is readable */
+    color: #333;
+}
+

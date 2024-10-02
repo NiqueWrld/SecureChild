@@ -1,0 +1,222 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<title>@ViewData["Title"]</title>
+
+<!-- Custom CSS for Theme -->
+<style>
+    /* Global Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #fff; /* White background */
+        color: #333; /* Dark text for readability */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        background-image: url('/images/school-background.jpg'); /* Path to your background image */
+        background-size: cover;
+        background-position: center;
+        color: #fff; /* White text */
+        padding: 80px 0;
+        text-align: center;
+        position: relative;
+        border-bottom: 2px solid #ffd700; /* Royal yellow border for separation */
+    }
+
+    .hero-section .overlay {
+        background: rgba(0, 0, 0, 0.6); /* Darker overlay for better contrast */
+        color: #ffd700; /* Royal yellow text */
+        padding: 30px;
+        border-radius: 8px;
+        display: inline-block;
+        margin-top: 20px;
+        text-align: center;
+        animation: fadeIn 1s ease-out, slideIn 1s ease-out;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        animation: slideIn 1s ease-out;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        animation: slideIn 1s ease-out 0.5s; /* Delay for text */
+    }
+
+    .hero-section a.btn-primary {
+        background-color: #ffd700; /* Royal yellow */
+        border-color: #ffd700;
+        color: #000; /* Black text */
+        font-size: 1rem;
+        padding: 8px 20px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.3s;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .hero-section a.btn-primary:hover {
+        background-color: #ffc107; /* Slightly darker royal yellow */
+        transform: scale(1.05);
+    }
+
+    @@keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @@keyframes slideIn {
+        from { transform: translateY(-20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Features Section */
+    #features {
+        background-color: #000; /* Black background */
+        color: #ffd700; /* Royal yellow text */
+        padding: 40px 0;
+    }
+
+    #features h2 {
+        color: #ffd700; /* Royal yellow */
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        border-top: 2px solid #ffd700; /* Royal yellow border */
+        width: 60px;
+        margin: 20px auto;
+    }
+
+    .feature-box {
+        background-color: #333; /* Dark grey background */
+        color: #ffd700; /* Royal yellow text */
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        transition: transform 0.3s;
+        animation: slideUp 0.5s ease-out;
+    }
+
+    .feature-box:hover {
+        transform: translateY(-5px);
+    }
+
+    @@keyframes slideUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* How It Works Section */
+    #how-it-works {
+        background-color: #000; /* Black background */
+        color: #ffd700; /* Royal yellow text */
+        padding: 40px 0;
+    }
+
+    #how-it-works ol {
+        color: #ffd700; /* Royal yellow text */
+        font-size: 1rem;
+        line-height: 1.6;
+        list-style: none; /* Remove default numbers */
+        padding: 0;
+    }
+
+    #how-it-works li {
+        margin-bottom: 15px;
+    }
+
+    #how-it-works p {
+        color: #ffd700; /* Royal yellow text */
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    /* Footer Section */
+    footer {
+        background-color: #000; /* Black background */
+        color: #ffd700; /* Royal yellow text */
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+    footer a {
+        color: #ffd700; /* Royal yellow */
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    footer a:hover {
+        color: #fff; /* White text on hover */
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="overlay">
+        <h1>Welcome to KidSecure</h1>
+        <p>Your solution for student security and school monitoring.</p>
+        <a href="@Url.Action("AboutUS", "Home")" class="btn btn-primary">Learn More</a>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div id="features" class="container text-center my-4">
+    <h2>Key Features</h2>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h3>Real-Time Monitoring</h3>
+                <p>Track student entries and exits with live updates.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h3>Instant Alerts</h3>
+                <p>Get immediate notifications for critical events.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h3>Easy Management</h3>
+                <p>Manage data and staff access effortlessly.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works Section -->
+<div id="how-it-works" class="container text-center my-4">
+    <h2>How It Works</h2>
+    <hr>
+    <p>KidSecure keeps students safe with:</p>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <ol>
+                <li><strong>Student Entry:</strong> Real-time logs visible to security staff.</li>
+                <li><strong>Notifications:</strong> Whatsapp alerts for arrivals and departures.</li>
+                <li><strong>Monitoring:</strong> Live dashboard for student tracking.</li>
+                <li><strong>Alerts & Reports:</strong> Automated alerts and detailed reports.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+

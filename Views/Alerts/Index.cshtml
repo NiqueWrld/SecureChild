@@ -1,0 +1,61 @@
+﻿@model IEnumerable<SecureChild.Models.Alert>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color: #000;">Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn" style="background-color: #ffd700; color: #000;">Create New</a>
+</p>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlertType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SentSuccessfully)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Time)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AlertType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SentSuccessfully)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn" style="background-color: #ffd700; color: #000;">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn" style="background-color: #ffd700; color: #000;">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

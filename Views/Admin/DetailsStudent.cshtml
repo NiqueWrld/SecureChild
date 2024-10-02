@@ -1,0 +1,63 @@
+﻿@model SecureChild.Models.Student
+
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<h1 style="color: black;"></h1>
+
+<div>
+    <h4 style="color: #ffd700;">Student</h4> <!-- Royal Yellow -->
+    <hr style="border-color: #ffd700;" /> <!-- Horizontal rule in Royal Yellow -->
+    <dl class="row" style="color: black;">
+        <!-- Black text for details -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt class="col-sm-2">
+        </dt>
+        <dd class="col-sm-10">
+        </dd>
+
+        <dt class="col-sm-2" style="color: #ffd700;">
+            <!-- Royal Yellow for Parent Details -->
+            Parent Details
+        </dt>
+        <dd class="col-sm-10" style="color: black;">
+            <!-- Black for parent details text -->
+            .... <!-- Placeholder for parent details -->
+        </dd>
+
+        <dt class="col-sm-2">
+        </dt>
+        <dd class="col-sm-10">
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Parent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Parent.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Contact Number
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Parent.ContactInfo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="EditStudent" asp-route-id="@Model.Id" class="btn" style="background-color: #ffd700; color: black; text-decoration: none; padding: 10px 15px; border-radius: 5px;">Edit</a> |
+    <a asp-action="ManageStudents" class="btn" style="background-color: #ffd700; color: black; text-decoration: none; padding: 10px 15px; border-radius: 5px; margin-left: 10px;">Back to List</a>
+</div>

@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\SecureChild\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\views\\admin\\createstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:views\\admin\\createstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\views\\admin\\createsecuritystaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:views\\admin\\createsecuritystaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\views\\admin\\createparent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:views\\admin\\createparent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\migrations\\securechildcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:migrations\\securechildcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\migrations\\20240924214443_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:migrations\\20240924214443_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\startswithattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\startswithattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\securitystaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\securitydashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\securitydashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\schooltime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\schooltime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\messaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\messaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\emailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\emailgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\alertsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\alertsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:controllers\\alertscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\views\\alerts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:views\\alerts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|f:\\securechild\\views\\admin\\alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E4A97D4-6AC5-4BA0-87F5-65D445B91104}|SecureChild.csproj|solutionrelative:views\\admin\\alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSecurityStaff.cshtml",
+              "DocumentMoniker": "F:\\SecureChild\\Views\\Admin\\CreateSecurityStaff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateSecurityStaff.cshtml",
+              "ToolTip": "F:\\SecureChild\\Views\\Admin\\CreateSecurityStaff.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateSecurityStaff.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T09:55:32.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateStudent.cshtml",
+              "DocumentMoniker": "F:\\SecureChild\\Views\\Admin\\CreateStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateStudent.cshtml",
+              "ToolTip": "F:\\SecureChild\\Views\\Admin\\CreateStudent.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateStudent.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB4AAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T09:55:21.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "F:\\SecureChild\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAQwGAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:47:52.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateParent.cshtml",
+              "DocumentMoniker": "F:\\SecureChild\\Views\\Admin\\CreateParent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateParent.cshtml",
+              "ToolTip": "F:\\SecureChild\\Views\\Admin\\CreateParent.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateParent.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T08:46:40.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecureChildContextModelSnapshot.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Migrations\\SecureChildContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\SecureChildContextModelSnapshot.cs",
+              "ToolTip": "F:\\SecureChild\\Migrations\\SecureChildContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\SecureChildContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:54:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240924214443_initials.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Migrations\\20240924214443_initials.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240924214443_initials.cs",
+              "ToolTip": "F:\\SecureChild\\Migrations\\20240924214443_initials.cs",
+              "RelativeToolTip": "Migrations\\20240924214443_initials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:53:28.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:52:45.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StartsWithAttribute.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\StartsWithAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\StartsWithAttribute.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\StartsWithAttribute.cs",
+              "RelativeToolTip": "Models\\StartsWithAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:52:17.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SecurityStaff.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\SecurityStaff.cs",
+              "RelativeDocumentMoniker": "Models\\SecurityStaff.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\SecurityStaff.cs",
+              "RelativeToolTip": "Models\\SecurityStaff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:51:46.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecurityDashboardViewModel.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\SecurityDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\SecurityDashboardViewModel.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\SecurityDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\SecurityDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:51:29.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SchoolTime.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\SchoolTime.cs",
+              "RelativeDocumentMoniker": "Models\\SchoolTime.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\SchoolTime.cs",
+              "RelativeToolTip": "Models\\SchoolTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:51:13.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Parent.cs",
+              "RelativeDocumentMoniker": "Models\\Parent.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Parent.cs",
+              "RelativeToolTip": "Models\\Parent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:50:50.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Messaging.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Messaging.cs",
+              "RelativeDocumentMoniker": "Models\\Messaging.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Messaging.cs",
+              "RelativeToolTip": "Models\\Messaging.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:49:34.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Exit.cs",
+              "RelativeDocumentMoniker": "Models\\Exit.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Exit.cs",
+              "RelativeToolTip": "Models\\Exit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:49:19.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:49:15.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Entry.cs",
+              "RelativeDocumentMoniker": "Models\\Entry.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Entry.cs",
+              "RelativeToolTip": "Models\\Entry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:48:50.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailGenerator.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\EmailGenerator.cs",
+              "RelativeDocumentMoniker": "Models\\EmailGenerator.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\EmailGenerator.cs",
+              "RelativeToolTip": "Models\\EmailGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:48:45.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AlertSettings.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\AlertSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AlertSettings.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\AlertSettings.cs",
+              "RelativeToolTip": "Models\\AlertSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:47:57.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\Alert.cs",
+              "RelativeDocumentMoniker": "Models\\Alert.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\Alert.cs",
+              "RelativeToolTip": "Models\\Alert.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:47:18.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "F:\\SecureChild\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:44:12.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\SecureChild\\Views\\Alerts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alerts\\Index.cshtml",
+              "ToolTip": "F:\\SecureChild\\Views\\Alerts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Alerts\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T22:51:43.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Alerts.cshtml",
+              "DocumentMoniker": "F:\\SecureChild\\Views\\Admin\\Alerts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Alerts.cshtml",
+              "ToolTip": "F:\\SecureChild\\Views\\Admin\\Alerts.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Alerts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T22:51:35.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AlertsController.cs",
+              "DocumentMoniker": "F:\\SecureChild\\Controllers\\AlertsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlertsController.cs",
+              "ToolTip": "F:\\SecureChild\\Controllers\\AlertsController.cs",
+              "RelativeToolTip": "Controllers\\AlertsController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAmwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T22:51:30.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

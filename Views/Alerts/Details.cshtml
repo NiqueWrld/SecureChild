@@ -1,0 +1,47 @@
+﻿@model SecureChild.Models.Alert
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 style="color: #000;">Details</h1>
+
+<div style="background-color: #000; color: #fff; padding: 20px;">
+    <h4 style="color: #ffd700;">Alert</h4>
+    <hr style="border-color: #ffd700;" />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AlertType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AlertType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SentSuccessfully)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SentSuccessfully)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn" style="background-color: #ffd700; color: #000;" asp-action="Index">Back to List</a>
+</div>

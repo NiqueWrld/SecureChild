@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.text-red {
+    color: red;  
+}
+
+
+body {
+    background-color: #000; /* Set background color to black */
+    color: #ffd700; /* Set default text color to royal yellow */
+}
+
+h1 {
+    color: #000; /* Header color */
+}
+
+.card {
+    background-color: #212529; /* Dark background for the card */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.card-title {
+    color: #ffd700; /* Title color */
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Button background */
+    border: none; /* Remove border */
+}
+
+    .btn-primary:hover {
+        background-color: #ffd700; /* Slightly lighter yellow on hover */
+    }
+
+.text-danger {
+    color: #dc3545; /* Danger text color (for validation messages) */
+}
+
+a {
+    color: #ffd700; /* Link color */
+}
+
+    a:hover {
+        color: #ffd700; /* Lighter yellow on hover */
+    }
+
+.form-check-input:checked {
+    background-color: #ffd700; /* Checkbox checked background */
+}

@@ -1,0 +1,46 @@
+﻿@model SecureChild.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 style="color: #000;"></h1>
+
+<h4 style="color: #ffd700;">Student</h4>
+<hr style="border-color: #ffd700;" />
+<div class="row" style="background-color: black; color: white; padding: 20px;">
+    <div class="col-md-4 offset-md-4">
+        <form asp-action="EditStudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" style="color: royalyellow;"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label" style="color: royalyellow;"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ParentId" class="control-label" style="color: royalyellow;"></label>
+                <select asp-for="ParentId" class="form-control" asp-items="ViewBag.ParentId"></select>
+                <span asp-validation-for="ParentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn" style="background-color: #ffd700; color: #000;" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ManageStudents" class="btn btn-warning" style="background-color: royalyellow; color: black; margin-top: 10px;">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,34 @@
+﻿@model SecureChild.Models.SchoolTime
+
+@{
+    ViewData["Title"] = "Update School Time";
+}
+
+<h1 style="color: #000;">Update School Time</h1> <!-- Title in black -->
+
+<h4 style="color: #ffd700;">School Time</h4> <!-- Subheading in black -->
+<hr style="border-color: #ffd700;" /> <!-- Horizontal rule in royal yellow -->
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateSchoolTime">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SchoolStartingTime" class="control-label" style="color: #000;"></label> <!-- Label in black -->
+                <input asp-for="SchoolStartingTime" class="form-control" style="border-color: #ffd700;" /> <!-- Input field with royal yellow border -->
+                <span asp-validation-for="SchoolStartingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SchoolEndingTime" class="control-label" style="color: #000;"></label> <!-- Label in black -->
+                <input asp-for="SchoolEndingTime" class="form-control" style="border-color: #ffd700;" /> <!-- Input field with royal yellow border -->
+                <span asp-validation-for="SchoolEndingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn" style="background-color: #ffd700; color: #000; border: none; padding: 10px 15px; border-radius: 5px;" /> <!-- Submit button styled -->
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ManageStudents" class="btn" style="background-color: #ffd700; color: #000; text-decoration: none; padding: 10px 15px; border-radius: 5px;">Back to List</a> <!-- Back to List button styled -->
+</div>

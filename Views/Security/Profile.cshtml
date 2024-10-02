@@ -1,0 +1,44 @@
+﻿@model SecureChild.Models.SecurityStaff
+
+@{
+    ViewData["Title"] = "Your Profile";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card" style="background-color: #000; color: #fff; border: 1px solid #ffd700;">
+                <div class="card-header" style="background-color: #ffd700; color: #000;">
+                    <h3 class="card-title">Your Profile</h3>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <img src="~/lib/bootstrap/dist/img/undraw_profile.svg" class="rounded-circle img-fluid" alt="Profile Picture" style="width: 150px;">
+                    </div>
+
+                    <table class="table table-dark table-striped">
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="color: #ffd700;">Email</th>
+                                <td>@Model.Email</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="color: #ffd700;">Name</th>
+                                <td>@Model.Name</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="color: #ffd700;">Gate</th>
+                                <td>@Model.Gate</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="color: #ffd700;">Contact Number</th>
+                                <td>@Model.ContactNumber</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

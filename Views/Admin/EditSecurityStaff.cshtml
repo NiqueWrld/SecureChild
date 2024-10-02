@@ -1,0 +1,57 @@
+﻿@model SecureChild.Models.SecurityStaff
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 style="color: #000;">Edit</h1>
+
+<h4 style="color: #ffd700;">Security Staff</h4>
+<hr style="border-color: #ffd700;" />
+<div class="row" style="background-color: black; color: white; padding: 20px;">
+    <div class="col-md-4 offset-md-4">
+        <form asp-action="EditSecurityStaff">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Email" class="control-label" style="color: #ffd700;"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label" style="color: #ffd700;"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gate" class="control-label" style="color: #ffd700;"></label>
+                <input asp-for="Gate" class="form-control" />
+                <span asp-validation-for="Gate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactNumber" class="control-label" style="color: #ffd700;"></label>
+                <input asp-for="ContactNumber" class="form-control" />
+                <span asp-validation-for="ContactNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label" style="color: #ffd700;"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn" style="background-color: #ffd700; color: #000;" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ManageSecurityStaff" class="btn btn-warning" style="background-color: #ffd700; color: black; margin-top: 10px;">Back to List</a>
+</div>
+
+@section Scripts{ 
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+
+}

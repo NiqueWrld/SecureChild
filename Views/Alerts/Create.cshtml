@@ -1,0 +1,42 @@
+﻿@model SecureChild.Models.Alert
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="color: #000;">Create</h1>
+
+<h4 style="color: #f00;">Alert</h4>
+<hr style="border-color: #ffd700;" />
+<div class="row" style="background-color: #000; color: #fff; padding: 20px;">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Message" class="control-label" style="color: #fff;"></label>
+                <input asp-for="Message" class="form-control" />
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+                        
+            <div class="form-group">
+                <label asp-for="AlertType" class="control-label" style="color: #fff;"></label>
+                <input asp-for="AlertType" class="form-control" />
+                <span asp-validation-for="AlertType" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="StudentId" class="control-label" style="color: #fff;"></label>
+                <select asp-for="StudentId" class="form-control" asp-items="ViewBag.StudentId"></select>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn" style="background-color: #ffd700; color: #000;" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn" style="background-color: #ffd700; color: #000;" asp-action="Index">Back to List</a>
+</div>
